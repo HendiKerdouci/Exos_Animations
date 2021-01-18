@@ -1,0 +1,78 @@
+h1{
+    color: cyan;
+    text-align: center;
+}
+
+/* classe */
+.container{
+    border: 5px black solid;
+    border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: darkgray;
+}
+.recipient{
+    background-color: white;
+    margin: auto ;
+    margin-top: 50px;
+    border: 5px red solid;
+    height: 350px;
+    width: 50px;
+}
+.balle{
+    background-color: blue;;
+    position: relative;
+    top: 0px;
+    border: 1px black solid;
+    height: 50px;
+    width: center;
+    border-radius: 50%;
+    animation: saut 3s infinite;
+}
+
+/* keyframe */
+@keyframes saut{
+    0%{ 
+        top: 0px;
+    }
+    10%{
+        top: 300px;
+    }
+
+    20%{
+        top: 50px;
+    }
+
+    30%{
+        top: 300px;
+    }
+
+    40%{
+        top: 100px; 
+    }
+
+    50%{
+        top: 300px;
+    }
+
+    60%{
+        top: 150px;
+    }
+
+    70%{
+        top: 300px;
+    }
+
+    80%{
+        top: 200px;
+    }
+
+    90%{
+        top: 300px;
+    }
+
+    100%{
+        top: 300px;
+    }    
+}
