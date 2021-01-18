@@ -1,0 +1,49 @@
+#contain{
+    position: absolute;
+    border: solid 2px black;
+    width: 25vw;
+    height: 25vw;
+    min-width: 250px;
+    min-height: 250px;
+    margin: 90px auto 50px 150px;
+    background-color: black;
+}
+
+.loader{
+    position: relative;
+    width: 20%;
+    height: 20%;
+    border: black 1px solid;
+    border-radius: 100%;
+    display: inline-block;
+    left: 17%;
+    top: 40%;
+    background-color: white;
+
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#loader2{
+    animation-delay: 1s;
+}
+
+#loader3{
+    animation-delay: 2s;
+}
+
+@keyframes loader{
+    0%{
+        background-color: white;
+    }
+    10%{
+        background-color: white;
+    }
+    90%{
+        background-color: black;
+    }
+    100%{
+        background-color: black;
+    }
+}
