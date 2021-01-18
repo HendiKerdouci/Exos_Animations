@@ -14,11 +14,7 @@ header {
     text-align: center;
     padding: 10px;
     border: solid black 2px; 
-    z-index: 1;  /* z-index à 1 pour que le header soit toujours visible même lorsque l'on scroll*/
-}
-
-footer{
-    text-align: right;   
+    z-index: 1;  
 }
 
 a{
@@ -32,12 +28,7 @@ a:hover{
 
 header a{
     color: white;
-    padding: 25px; /* Le padding sert à espacer les exos les uns des autres */
-}
-
-footer a{
-    font-size: 0.6rem;
-    padding-bottom: 15px;
+    padding: 25px;
 }
 
 h1{
@@ -45,5 +36,5 @@ h1{
     font-size: 1.5rem;
     word-spacing: 1rem;
     letter-spacing: 0.2rem;
-    margin-bottom: 15px; /* J'ai mis un margin-bottom pour éviter que le titre soit collé aux liens vers les exercices  */
+    margin-bottom: 15px; 
 }
