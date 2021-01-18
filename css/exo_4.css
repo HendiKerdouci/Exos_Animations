@@ -1,0 +1,73 @@
+#perimetre{
+    position: relative;
+    border: solid 1px black;
+    width: 25vw;
+    height: 25vw;
+    min-width: 250px;
+    min-height: 250px;
+    margin: 120px auto 50px auto;
+    background-color: white;
+}
+
+.carre{
+    width: 15%;
+    height: 15%;
+    border: 1px solid black;
+    position: absolute;
+    animation-name: courseRotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.carre:nth-child(1){
+    background-color: black;
+}
+.carre:nth-child(2){
+    background-color: green;
+    animation-delay: 1s;
+}
+.carre:nth-child(3){
+    background-color: yellow;
+    animation-delay: 2s;
+}
+.carre:nth-child(4){
+    background-color: red;
+    animation-delay: 3s;
+}
+.carre:nth-child(5){
+    background-color: blue;
+    animation-delay: 4s;
+}
+
+@keyframes courseRotate{
+    0%{
+        top: 0%;
+        left: 0%;
+        transform: rotate(0deg);
+        animation-timing-function: ease-in-out;
+    }
+    25%{
+        top: 0%;
+        left: 85%;
+        transform: rotate(-360deg);
+        animation-timing-function: linear;
+    }
+    50%{
+        top: 85%;
+        left: 85%;
+        transform: rotate(-540deg);
+        animation-timing-function: ease-in-out;
+    }
+    75%{
+        top: 85%;
+        left: 0%;
+        transform: rotate(-900deg);
+        animation-timing-function: linear;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+        transform: rotate(-1080deg);
+    }
+}
