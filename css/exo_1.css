@@ -24,6 +24,6 @@
     }
     to{
         transform: rotate(1080deg);
-        background-color: green;
+        background-color: lightgreen;
     }
 }
